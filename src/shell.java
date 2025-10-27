@@ -31,7 +31,7 @@ public class shell {
         }
     }
 
-    public String peckAnterior() {
+    public String prev() {
         if (historial.isEmpty()) {
             System.out.println("Historial vacío. no se han hecho movimientos.");
             return null;
